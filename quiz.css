@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-image: url(edderkop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+.container {
+    height: 30em;
+    min-width: 5em;
+    max-width: 30em;
+    padding: 1em;
+    margin: auto;
+}
+
+h1, h3, p, a {
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+h1 {
+    padding-top: 1em;
+}
+
+p {
+    font-size: 0.9em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.kilde {
+    font-size: 0.6em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    text-align: center;
+    list-style-type: none;
+}
+
+button {
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.2em;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #999;
+    border-width: 0.1em;
+    outline: none;
+    margin: 1em auto;
+    display: block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    border-color: #fff;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  
+    button {
+
+        border-color: #fff;
+    
+  }}
